@@ -1,0 +1,11 @@
+class Solution:
+    def hammingDistance(self, x: int, y: int) -> int:
+        diff = x ^ y
+        count = 0
+
+        while diff > 0:
+            if diff % 2 == 1:
+                count += 1
+            diff //= 2
+
+        return count
