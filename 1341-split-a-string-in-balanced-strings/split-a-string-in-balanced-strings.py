@@ -4,7 +4,7 @@ class Solution:
         count = 0
 
         for ch in s:
-            if ch == 'L':
+            if ch == 'R':
                 balance += 1
             else:
                 balance -= 1
