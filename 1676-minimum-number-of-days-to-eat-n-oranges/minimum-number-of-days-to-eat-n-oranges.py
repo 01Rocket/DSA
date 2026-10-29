@@ -1,3 +1,5 @@
+from functools import lru_cache
+
 class Solution:
     @lru_cache(None)
     def minDays(self, n: int) -> int:
